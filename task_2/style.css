@@ -1,0 +1,79 @@
+#productDom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 110px;
+}
+
+.card {
+    background-color: #f9e8d2; /* Light beige background */
+    border: 1px solid #d4a373; /* Light brown border */
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+    width: 15rem;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: 150px; /* Set a fixed height for all card images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.cart-image {
+    width: 45px;
+}
+
+.delete {
+    color: #8e553b; /* Dark brown */
+    font-size: 20px;
+}
+
+.delete:hover {
+    color: #693c29; /* Slightly darker brown on hover */
+}
+
+.nav-style {
+    background-color: #d4a373; /* Light brown navbar */
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand h4 {
+    color: #693c29; /* Dark brown text color */
+}
+
+.inputField {
+    width: 25px;
+    text-align: center;
+    border: none;
+    background-color: #f9e8d2; /* Light beige background */
+}
+
+.btn-secondary {
+    background-color: #d4a373; /* Light brown button background */
+    color: #693c29; /* Dark brown button text color */
+    border: none;
+}
+
+.btn-danger {
+    background-color: #8e553b; /* Dark brown button background */
+    color: #f9e8d2; /* Light beige button text color */
+    border: none;
+}
+
+.btn-secondary:hover,
+.btn-danger:hover {
+    background-color: #693c29; /* Darker brown on hover */
+}
+
